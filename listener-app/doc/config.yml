@@ -1,0 +1,18 @@
+solana:
+    read_rpcs:
+        -   url: https://rpc.ankr.com/solana/bd53c71861ec986f1d40e84d82d327d181fb61c6057f5fbb4fd01c93d6389c97
+            ratelimit: 4 # requests per second
+    write_rpcs:
+        -   url: https://rpc.ankr.com/solana/bd53c71861ec986f1d40e84d82d327d181fb61c6057f5fbb4fd01c93d6389c97
+            ratelimit: 4 # requests per second
+    commitment: confirmed
+    tx_read_from: 42sYQAN8Hx51X3rHBUoDkWfVkdvA4V4kG7zDbbQt5WV5K7iW2AVKY7fGnVTN9NSYiUwwdTnERRdqERR38hvuwRBR
+    #tx_read_from_force: 42sYQAN8Hx51X3rHBUoDkWfVkdvA4V4kG7zDbbQt5WV5K7iW2AVKY7fGnVTN9NSYiUwwdTnERRdqERR38hvuwRBR
+    program_listen_to: bBr6NPrnTLYQQzYP7fCyJq5tmgx23ZwutHE38BFG1JY
+    chain_id: "11100000000000000501"
+
+postgres:
+    host: 127.0.0.1
+    port: 5432
+    username: user
+    dbname: point_system

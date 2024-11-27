@@ -1,0 +1,4 @@
+[submodule "solana-tools"]
+	path = solana-tools
+	url = https://gitlab.my.com/my/solana-tools.git
+	branch = master
